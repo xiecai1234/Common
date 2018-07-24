@@ -1,0 +1,8 @@
+<resources>
+    <declare-styleable name="SimpleImageView">
+        <attr name="src" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="CircleImageView">
+        <attr name="circle_src" format="integer" />
+    </declare-styleable>
+</resources>

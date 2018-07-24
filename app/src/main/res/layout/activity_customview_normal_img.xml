@@ -1,0 +1,27 @@
+<com.bjc.xcb.common.customview.viewgroup.VerticalLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:img="http://schemas.android.com/apk/res-auto"
+    xmlns:circle="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+     <!--<com.bjc.xcb.common.customview.SimpleImageView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        img:src="@drawable/icon_400" />-->
+
+    <com.bjc.xcb.common.customview.SimpleImageViewV2
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        img:src="@drawable/icon_400" />
+    <com.bjc.xcb.common.customview.MeaturedCircleImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        circle:circle_src="@drawable/icon_400" />
+    <!--<com.bjc.xcb.common.customview.CanvasView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        circle:circle_src="@drawable/icon_400" />-->
+
+</com.bjc.xcb.common.customview.viewgroup.VerticalLayout>
